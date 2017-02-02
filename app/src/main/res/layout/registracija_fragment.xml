@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:hint="Ime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imeUnos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <EditText
+        android:hint="Prezime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prezimeUnos"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title" />
+
+    <Button
+        android:text="Grad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGrad" />
+
+    <Button
+        android:text="Spremi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSpremi"
+        android:background="#FF80"/>
+</LinearLayout>
